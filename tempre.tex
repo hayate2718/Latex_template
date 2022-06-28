@@ -1,0 +1,53 @@
+\documentclass[12pt,a4paper,dvipdfmx]{jarticle}
+\usepackage[top = 20truemm, bottom = 20truemm, left = 15truemm , right = 15truemm]{geometry}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{here}
+\usepackage[dvipdfmx]{hyperref}
+\usepackage{pxjahyper}
+\usepackage{amsmath}
+\hypersetup{
+	bookmarksnumbered = true,
+	colorlinks = true,
+	setpagesize = false,
+	linkcolor = blue,
+	urlcolor = blue
+}
+\title{タイトル}
+\author{著者}
+\begin{document}
+\maketitle
+\section {目次}
+\begin{enumerate}
+	\item \hyperlink{section1}{セクション1}
+	\item \hyperlink{section2}{セクション2}
+	\item \hyperlink{section3}{セクション3}
+	\item \hyperlink{section4}{セクション4}
+
+\end{enumerate}
+\section{本編}
+		
+		
+		
+\begin{enumerate}
+	\item \hypertarget{section1}{セクション1}\\
+	\begin{tabular}{ccccl}
+	\hline
+	data1 &data2& data3 & data4 & data5\\
+	\hline
+	1&2&3&4&5\\
+	\hline
+\end{tabular}
+		
+		
+	\item \hypertarget{section2}{セクション2}\\
+		
+		
+	\item \hypertarget{section3}{セクション3}\\
+		
+		
+	\item \hypertarget{section4}{セクション4}\\
+		
+		
+\end{enumerate}
+
+\end{document}
